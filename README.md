@@ -1,3 +1,5 @@
+**Attention ce fichier README est écrasé lors de l'appel à vue create. Une copie existe dans INIT.md**
+
 # Initialisation d'un projet Vue.js
 
 ## Création du container vuenodejs
