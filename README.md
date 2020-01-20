@@ -1,51 +1,24 @@
-**Attention ce fichier README est écrasé lors de l'appel à vue create. Une copie existe dans INIT.md**
+# app
 
-# Initialisation d'un projet Vue.js
-
-## Création du container vuenodejs
+## Project setup
 ```
-make up
+yarn install
 ```
 
-## Création du projet Vue.js dans le répertoire courant
+### Compiles and hot-reloads for development
 ```
-make vue create .
-```
-
- - Generate project in current directory?  => Y
- - Please pick a preset  => default (eslint, babel)
- - Pick the package manager to use when installing dependencies => default (yarn)
-
-### Lancer le serveur web pour vérifier
-
-```
-make serve
-```
-accès via : http://localhost:8081/
-
-pour voir les logs
-```
-make logs
+yarn serve
 ```
 
-### installation du plugin axios
+### Compiles and minifies for production
 ```
-make vue add axios
-```
-
-erreur de lint : modifier dans src/plugins/axios.js (42) :
- Plugin.install = function(Vue) {
-
-### installation du plugin vuetify
-```
-make vue add vuetify
+yarn build
 ```
 
- - Choose a preset => default
-
-## Rédémarrer le container et le serveur
+### Lints and fixes files
 ```
-make stop
-make serve
+yarn lint
 ```
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
