@@ -2,7 +2,7 @@
   <v-app>
     <Navbar></Navbar>
     <v-content>
-      <router-view></router-view>
+      <router-view class="ma-4"></router-view>
     </v-content>
 
   </v-app>
